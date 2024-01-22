@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fcfef5;
+
+    padding: 72px 104px
+}
+
+header h1{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+    font-size: 59px;
+    line-height: 72px;
+    color: #d1ad0e;
+    
+    padding-left: 20px;
+}
+
+header p{
+    font-family: 'Sacramento', cursive;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    color: #e0b90c;
+
+    padding-left: 20px;
+}
+
+main{
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 48px 60px ;
+
+    place-content: center;
+}
+.card{
+   background:#fafbe3;
+   border: 2px solid #dddddd;
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+.card h2{
+    font-family: 'El Messiri', sans-serif;
+    color: #414141;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 24px 32px 0;
+}
+
+.card p{
+    color: #414141;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 24px 32px 32px;
+}
+
+img{
+    max-width: 600px;
+    max-height: 300px;
+}
